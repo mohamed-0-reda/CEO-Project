@@ -1,245 +1,425 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tale SEO Agency</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="site.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="left">
-        <img src="images\phone-call.png" width="20px" alt="Error" />
-        010-020-0340 |
-        <span class="one"
-          ><img src="images\email.png" width="20px" alt="Error" />
-          info@company.com |</span
-        >
-        <span class="two"
-          ><img src="images\placeholder.png" width="20px" alt="Error" />
-          Shobra-Elkhima, Qalubia, Egypt</span
-        >
-      </div>
-      <div class="right">
-        <a href="https://www.facebook.com/" target="_blank"
-          ><img src="images\facebook-app-symbol.png" width="17px" alt="Error"
-        /></a>
-        <a href="https://x.com/" target="_blank"
-          ><img src="images\twitter.png" width="17px" alt="Error"
-        /></a>
-        <a href="https://www.linkedin.com/" target="_blank"
-          ><img src="images\linkedin.png" width="17px" alt="Error"
-        /></a>
-        <a href="https://www.instgram.com/" target="_blank"
-          ><img src="images\instagram.png" width="17px" alt="Error"
-        /></a>
-      </div>
-    </div>
+/* ================= GLOBAL STYLES ================= */
+* {
+  box-sizing: border-box;
+}
 
-    <nav class="navbar">
-      <div class="container">
-        <img src="images\logo.png" alt="Error" />
-        <div>
-          <div class="nav-link">
-            <li><a class="nav-link" href="#">Home</a></li>
-            <li><a class="nav-link" href="#">Services</a></li>
-            <li><a class="nav-link" href="#">Projects</a></li>
-            <li><a class="nav-link" href="#">Pages</a></li>
-            <li><a class="nav-link" href="#">Infos</a></li>
-            <li><a class="nav-link" href="#">Contact</a></li>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <div class="parent">
-      <div class="first-child">
-        <img class="left-banner" src="images\\banner-left.png" alt="Error" />
-        <div class="text-container">
-          <h5>SEO Digital Agency</h5>
-          <hr />
-          <h1>
-            Dive <span class="color">Into The SEO</span> World <br />
-            <span class="color">With Tale</span>
-          </h1>
-          <p>
-            Tale is the best SEO agency website template using Bootstrap 5.2.2
-            CSS for your company. It is a free download provided by TemplateMo.
-          </p>
-          <a href="#" class="btn btn-primary">Discover More</a>
-          <a href="#" class="btn btn-outline-primary">Check Our FAQs</a>
-        </div>
-        <img class="right-banner" src="images\\banner-right.png" alt="Error" />
-      </div>
-    </div>
+body {
+  margin: 0;
+  overflow-x: hidden;
+  /* لمنع السكرول العرضي الزائد */
+}
 
-    <br /><br />
-    <br /><br />
-    <br /><br />
-    <div class="om">
-      <img class="lft-banner" src="images\services-left.jpg" alt="Error" />
-      <div class="ebn">
-        <div class="ooo">
-          <h2>
-            We Provide <span class="color">Different Services</span> & <br />
-            <span class="color">Features</span> For Your Agency
-          </h2>
-          <hr class="boo" />
-          <p class="text">Hello! my name is Mohamed.. ^_^</p>
-        </div>
-        <div class="container-one">
-          <div class="icon">
-            <img
-              class="ser"
-              src="images\services-01-removebg-preview.png"
-              alt="Error"
-            />
-            <h3 class="omg">Discover More on Latest SEO Trends</h3>
-          </div>
-          <div class="icon">
-            <img
-              class="ser"
-              src="images\services-02-removebg-preview.png"
-              alt="Error"
-            />
-            <h3 class="omg">Real-Time Big Data Analysis</h3>
-          </div>
-          <div class="icon">
-            <img
-              class="ser"
-              src="images\services-03-removebg-preview.png"
-              alt="Error"
-            />
-            <h3 class="omg">Precise Data Analysis & Prediction</h3>
-          </div>
-          <div class="icon">
-            <img
-              class="ser"
-              src="images\services-04-removebg-preview.png"
-              alt="Error"
-            />
-            <h3 class="omg">SEO Marketing & Social Media</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br /><br /><br /><br /><br />
-    <div class="container-two">
-      <h3 class="one">
-        Discover Our <span class="color">Work</span> &
-        <span class="color">Projects</span>
-      </h3>
-      <hr id="one" />
-    </div>
-    <div
-      class="container-three mx-3 d-flex gap-4 flex-wrap justify-content-center p-4 rounded"
-    >
-      <div class="card">
-        <div>
-          <img src="images\\projects-01.jpg" alt="Error" class="card-img-top" />
-        </div>
-        <div>
-          <a class="kk nav-link" href="#"
-            ><h2>Html CSS Layout For Your Website</h2></a
-          >
-        </div>
-      </div>
+/* جعل جميع الصور متجاوبة تلقائياً */
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-      <div class="card">
-        <div>
-          <img src="images\\projects-02.jpg" alt="Error" class="card-img-top" />
-        </div>
-        <div>
-          <a class="kk nav-link" href="#"
-            ><h2>Bootstrap 5 Themes For You</h2></a
-          >
-        </div>
-      </div>
+/* ================= TOP BAR ================= */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  /* يسمح بالعناصر بالنزول للأسفل */
+}
 
-      <div class="card">
-        <div>
-          <img src="images\\projects-03.jpg" alt="Error" class="card-img-top" />
-        </div>
-        <div>
-          <a class="kk nav-link" href="#"
-            ><h2>Mobile Friendly Website Usefully</h2></a
-          >
-        </div>
-      </div>
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
-      <div class="card">
-        <div>
-          <img
-            src="images\\about-us-image.jpg"
-            alt="Error"
-            class="card-img-top"
-          />
-        </div>
-        <div>
-          <a class="kk nav-link" href="#"
-            ><h2>Admin Dashboard CSS Template</h2></a
-          >
-        </div>
-      </div>
-    </div>
-    <br /><br /><br /><br />
-    <footer class="main-footer">
-      <div class="footer-content-wrapper">
-        <div class="footer-map-section">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.956708682855!2d-80.12643538497678!3d25.795156483561935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a2446757f49f%3A0x3b7d1e8d9752f9b1!2sSunny%20Isles%20Beach%2C%20FL%2C%20USA!5e0!3m2!1sen!2seg!4v1678888888888!5m2!1sen!2seg"
-            width="100%"
-            height="400"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
+.right a {
+  margin: 7px;
+  display: inline-block;
+}
 
-        <div class="footer-contact-form-section">
-          <div class="contact-form-header">
-            <h2>Contact Us & Get In Touch</h2>
-          </div>
-          <form class="contact-form">
-            <div class="form-row">
-              <input type="text" placeholder="Your Name..." required />
-              <input type="text" placeholder="Your Surname..." required />
-            </div>
-            <div class="form-row">
-              <input type="email" placeholder="Your E-mail..." required />
-              <input type="text" placeholder="Subject..." required />
-            </div>
-            <textarea placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit" class="send-message-btn">
-              Send Message Now
-            </button>
-          </form>
-        </div>
-      </div>
+.one,
+.two {
+  margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
 
-      <div class="footer-info-bar">
-        <div class="info-item">
-          <i class="fas fa-phone-alt"><span>010-020-03040</span></i>
-        </div>
-        <div class="info-item">
-          <i class="fas fa-envelope"><span>info@company.com</span></i>
-          <!-- <span>hello@company.com</span> -->
-        </div>
-        <div class="info-item">
-          <i class="fas fa-map-marker-alt"
-            ><span>Sunny Isles Beach, Fl, 33160</span>
-            <span>United States</span></i
-          >
-        </div>
-      </div>
-    </footer>
-  </body>
-</html>
+/* ================= NAVBAR ================= */
+.navbar {
+  background: linear-gradient(to right, #6A0DAD, #BA55D3);
+  padding: 10px 0;
+}
+
+.navbar .container {
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #d4c8e8;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-link li a {
+  color: #d4c8e8;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-link li a:hover {
+  color: #3e234a;
+}
+
+/* ================= HERO SECTION (First Child) ================= */
+.parent {
+  width: 100%;
+  overflow: hidden;
+}
+
+.first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* مهم جداً للموبايل */
+  padding: 20px;
+}
+
+/* تنسيق النصوص */
+.text-container {
+  padding: 50px 20px;
+  /* تم تقليل الـ padding الضخم */
+  text-align: left;
+  flex: 1;
+  /* يأخذ مساحة متاحة */
+  min-width: 300px;
+}
+
+.text-container h5 {
+  color: #673ab7;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-container h1 {
+  font-size: 40px;
+  /* تصغير الخط قليلاً */
+  font-weight: bold;
+  padding: 10px 0;
+  line-height: 1.2;
+}
+
+.color {
+  background: linear-gradient(to right, #6A0DAD, #BA55D3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #6A0DAD, #BA55D3);
+  color: #fff;
+  border: none;
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  color: #6A0DAD;
+  border: 2px solid #6A0DAD;
+  margin-left: 10px;
+}
+
+/* إخفاء الصور الجانبية الكبيرة في الموبايل أو تعديلها */
+.left-banner {
+  display: none;
+  /* hidden on small screens */
+}
+
+@media (min-width: 992px) {
+  .left-banner {
+    display: block;
+  }
+}
+
+/* ================= SERVICES SECTION ================= */
+.om {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.lft-banner {
+  max-width: 40%;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.ebn {
+  flex: 1;
+  margin-top: 20px;
+  padding-left: 20px;
+  min-width: 300px;
+  /* لضمان عدم انضغاط النص */
+}
+
+.boo {
+  background: linear-gradient(to right, #6A0DAD, #BA55D3);
+  height: 2px;
+  border: none;
+  width: 100px;
+  margin: 10px 0;
+}
+
+.container-one {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.icon {
+  border: 2px solid gray;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  box-shadow: 0 15px 30px rgba(138, 43, 226, 0.4);
+  transform: translateY(-5px);
+}
+
+/* ================= PROJECTS SECTION ================= */
+.container-two {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#one {
+  width: 150px;
+  margin: 10px auto;
+  border-color: #6f42c1;
+}
+
+.container-three {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* السماح للكروت بالنزول سطر جديد */
+  justify-content: center;
+  background: linear-gradient(to right, #6A0DAD, #BA55D3);
+  padding: 40px 20px;
+  border-radius: 15px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 360px;
+  width: 100%;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.kk {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* ================= FOOTER ================= */
+.main-footer {
+  background: linear-gradient(to right, #6A0DAD, #BA55D3);
+  color: white;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+}
+
+.footer-map-section,
+.footer-contact-form-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 400px;
+  min-width: 300px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.right-banner {
+  max-width: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.footer-map-section iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 240px;
+  border: 0;
+}
+
+.contact-form .form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form .send-message-btn {
+  background: linear-gradient(to right, #6A0DAD, #BA55D3);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.footer-info-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.info-item {
+  text-align: center;
+  flex: 1;
+  min-width: 150px;
+}
+
+.info-item i {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+/* ================= MEDIA QUERIES (MOBILE) ================= */
+@media (max-width: 768px) {
+
+  /* تعديل النافبار */
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-link {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* عكس ترتيب الهيرو (الصورة تحت النص) */
+  .first-child {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .text-container {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .text-container h1 {
+    font-size: 28px;
+  }
+
+  .right-banner {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  /* قسم الخدمات */
+  .om {
+    flex-direction: column;
+  }
+
+  .lft-banner {
+    display: none;
+    /* إخفاء الصورة الكبيرة في الخدمات للموبايل */
+  }
+
+  .ebn {
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .container-one {
+    grid-template-columns: 1fr;
+    /* single column on small screens */
+  }
+
+  /* الفوتر */
+  .contact-form .form-row {
+    flex-direction: column;
+  }
+
+  .footer-info-bar {
+    flex-direction: column;
+  }
+}
+
+/* Larger screens adjustments */
+@media (min-width: 1200px) {
+  .text-container h1 {
+    font-size: 56px;
+  }
+
+  .text-container {
+    padding: 60px 40px;
+  }
+
+  .right-banner {
+    max-width: 55%;
+  }
+}
